@@ -1,4 +1,4 @@
-function sum (...args) {
+export function sum (...args) {
   if (args.length < 2) {
     throw new Error ("At least 2 arguments are needed!");
   }
@@ -8,6 +8,6 @@ function sum (...args) {
   }, 0)
 }
 
-module.exports = {
-  sum
-};
+// module.exports = {
+//   sum
+// };

@@ -1,6 +1,14 @@
-require("./1-welcome");
-require("./2-global-this");
+// require("./1-welcome");
+// require("./2-global-this");
 
-const { sum } = require("./math");
+import { sum } from "./math.js";
 
-console.log(sum(2, 3, 4));
+try {
+  console.log(sum(2, 4, 5));
+  console.log(sum(2));
+  console.log(sum(2, 4, 5));
+} catch (e) {
+  console.log(e);
+}
+
+console.log("Still here!");
