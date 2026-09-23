@@ -2,10 +2,14 @@
 // require("./2-global-this");
 
 import bingbing from "bingbing";
+
 import { sum } from "./maths/index.js";
+import courseData from "./course.json" with { type: 'json' };
 
 try {
   bingbing();
+
+  console.log(courseData);
 
   console.log(sum(2, 4, 5));
   // console.log(sum(2));
