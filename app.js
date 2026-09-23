@@ -1,7 +1,7 @@
 // require("./1-welcome");
 // require("./2-global-this");
 
-import { sum } from "./math.js";
+import { sum } from "./maths/index.js";
 
 try {
   console.log(sum(2, 4, 5));
